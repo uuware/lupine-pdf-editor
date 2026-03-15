@@ -5,6 +5,11 @@
       "index": "web/src/index.tsx",
       "html": "web/src/index.html",
       "outdir": "/"
+    },
+    {
+      "index": "web/src/lupine-pdf-editor/index.tsx",
+      "html": "web/src/lupine-pdf-editor/index.html",
+      "outdir": "/lupine-pdf-editor"
     }
   ],
   "apiEntryPoint": "api/src/index.ts",
@@ -13,6 +18,11 @@
       "type": "web",
       "from": "web/assets",
       "to": "assets"
+    },
+    {
+      "type": "web",
+      "from": "web/src/lupine-pdf-editor/404.html",
+      "to": "lupine-pdf-editor/404.html"
     },
     {
       "type": "data",
